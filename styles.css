@@ -1,0 +1,16 @@
+/* Reseteamos los estilos con el selector universal */
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generamos las Custom Properties */
+:root {
+    --color-fondo-body: #333;
+}
+
+/* Estilos para el color de fondo en el body */
+body {
+    background-color: var(--color-fondo-body);
+}
